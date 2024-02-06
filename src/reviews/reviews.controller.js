@@ -18,7 +18,6 @@ async function destroy(request, response) {
 }
 
 async function list(request, response) {
-  // TODO: Write your code here
   const { movieId } = request.params;
   const data = await service.list(movieId);
 
